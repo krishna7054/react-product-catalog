@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import products from '../data/products.json';
 import ProductList from '../components/ProductList';
 import CategoryFilter from '../components/CategoryFilter';
-
+import Navbar from '../components/Navbar';
 import SortFilter from '../components/SortFilter'; // Import SortFilter
-import SearchBar from '../components/SearchBar';
 
 const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -68,7 +67,7 @@ const HomePage = () => {
   return (
     <div className="home-page">
       {/* Navbar */}
-      <SearchBar
+      <Navbar
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
         cartItemCount={getCartItemCount()}
