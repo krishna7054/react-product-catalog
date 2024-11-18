@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import products from '../data/products.json';
 import ProductList from '../components/ProductList';
 import SearchBar from '../components/SearchBar';
+import CategoryFilter from '../components/CategoryFilter';
 
 const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -16,11 +17,16 @@ const HomePage = () => {
     return matchesSearch && matchesCategory;
   });
 
+  const categories = [...new Set(products.map(p => p.category))];
 
   return (
     <div className="home-page">
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      
+      <CategoryFilter
+        categories={categories}
+        selectedCategory={selectedCategory}
+        setSelectedCategory={setSelectedCategory}
+      />
       <ProductList products={filteredProducts} />
     </div>
   );
