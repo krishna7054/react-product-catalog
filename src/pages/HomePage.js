@@ -4,6 +4,7 @@ import ProductList from '../components/ProductList';
 import CategoryFilter from '../components/CategoryFilter';
 import Navbar from '../components/Navbar';
 import SortFilter from '../components/SortFilter'; // Import SortFilter
+import Footer from '../components/footer';
 
 const HomePage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -87,6 +88,7 @@ const HomePage = () => {
       </div>
       {/* Product List */}
       <ProductList products={sortedAndFilteredProducts} addToCart={addToCart} />
+      <Footer/>
     </div>
   );
 };
