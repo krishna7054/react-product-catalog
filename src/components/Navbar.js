@@ -11,7 +11,7 @@ export default function Navbar({ searchTerm, setSearchTerm, cartItemCount }) {
            {/* left Side - Logo */}
            <div className="flex items-center">
             <img className=" w-10 h-10 rounded-xl drop-shadow-2xl" src="logo.jpg" alt="logo" />
-            <span className=" font-bold text-xl p-1 font-serif  text-gray-800">Meraken</span>
+            <span className="  font-bold text-xl p-1   text-gray-800">Meraken</span>
           </div>
         
 

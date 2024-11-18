@@ -9,7 +9,7 @@ const ProductItem = ({ product, addToCart }) => {
       <img
         alt={product.name}
         src={product.image}
-        className=" w-[279px] h-[335px] object-cover group-hover:opacity-75 transition-all duration-300 "
+        className=" w-[300px] h-[330px] object-cover group-hover:opacity-100 transition-all duration-300 "
       />
       </div>
 
