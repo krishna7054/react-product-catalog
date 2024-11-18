@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "price": 99.99,
+      "image": "/images/headphones.jpg",
+      "description": "High-quality wireless headphones with noise cancellation."
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "image": "/images/smartwatch.jpg",
+      "description": "Stay connected on the go with this stylish smart watch."
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Sportswear",
+      "price": 49.99,
+      "image": "/images/Running_shoe.jpeg",
+      "description": "Comfortable running shoes for all terrains."
+    },
+    {
+      "id": 4,
+      "name": "Formal Shirt",
+      "category": "Cloths",
+      "price": 100.99,
+      "image": "/images/shirt.jpeg",
+      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
+    },
+    {
+      "id": 5,
+      "name": "Formal Shirt",
+      "category": "Cloths",
+      "price": 100.99,
+      "image": "/images/shirt.jpeg",
+      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
+    },
+    {
+      "id": 6,
+      "name": "Formal Shirt",
+      "category": "Cloths",
+      "price": 100.99,
+      "image": "/images/shirt.jpeg",
+      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
+    },
+    {
+      "id": 7,
+      "name": "Formal Shirt",
+      "category": "Cloths",
+      "price": 100.99,
+      "image": "/images/shirt.jpeg",
+      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
+    }
+  ]
+  
