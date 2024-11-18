@@ -1,11 +1,18 @@
-// import logo from './logo.svg';
-// import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProductPage from './pages/ProductPage';
+import './index.css';  // Make sure this line is included
+
 
 function App() {
   return (
-    <div className="App">
-   <h1 className="text-red">fndj</h1>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/product/:id" element={<ProductPage />} />
+      </Routes>
+    </Router>
   );
 }
 

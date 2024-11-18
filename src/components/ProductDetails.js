@@ -1,43 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
+import products from '../data/products.json';
 
-const ProductItem = ({ product, addToCart }) => {
+const ProductDetails = () => {
+  const { id } = useParams();
+  const navigate = useNavigate();
+  const product = products.find(p => p.id === parseInt(id));
+
   return (
-    <div >
-      {/* Product Image */}
-      <div >
-      <img
-        alt={product.name}
-        src={product.image}
-        
-      />
-      </div>
-
-      <div >
-        {/* Product Name */}
-        <h3 >{product.name}</h3>
-
-        {/* Product Price */}
-        <p  >${product.price}</p>
-
-        {/* Action Buttons */}
-        <div  >
-          {/* View Details Button */}
-          <Link to={`/product/${product.id}`} >
-            View Details
-          </Link>
-
-          {/* Add to Cart Button */}
-          <button
-            onClick={() => addToCart(product)}
-             
-          >
-            Add to Cart
-          </button>
-        </div>
-      </div>
+    <div className="product-details">
+      <button onClick={() => navigate(-1)}>Back</button>
+      <img className='imge' src={product.image} alt={product.name} />
+      <h1>{product.name}</h1>
+      <p>${product.price}</p>
+      <p>{product.description}</p>
     </div>
   );
 };
 
-export default ProductItem;
+export default ProductDetails;
