@@ -87,6 +87,12 @@ const HomePage = () => {
       {/* Sort Dropdown */}
       <SortFilter sortOrder={sortOrder} setSortOrder={setSortOrder} />
       </div>
+
+      {searchTerm && filteredProducts.length === 0 && (
+        <div className="flex justify-center mt-6">
+          <p className="text-xl font-semibold text-gray-700">Product not found :( </p>
+        </div>
+      )}
       {/* Product List */}
       <ProductList products={sortedAndFilteredProducts} addToCart={addToCart} />
       <Footer/>
