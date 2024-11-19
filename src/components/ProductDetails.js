@@ -42,12 +42,13 @@ const ProductDetails = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Product Image */}
+        <div>
         <img
           className="w-full cursor-pointer transition duration-300 hover:scale-105 h-auto object-cover rounded-md shadow-md"
           src={product.image}
           alt={product.name}
         />
-
+     </div>
         {/* Product Details */}
         <div className="space-y-4 my-auto">
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
