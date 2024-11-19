@@ -17,33 +17,56 @@ const ProductDetails = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto  p-6 bg-white shadow-lg rounded-lg mt-10">
-      {/* <button
+    <div className="max-w-5xl mx-auto p-4 sm:p-6 lg:p-10 bg-white shadow-lg rounded-lg mt-10">
+      {/* Back Button */}
+      <button
         onClick={() => navigate(-1)}
-        className="mb-4 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 rounded-lg"
+        className="animate-pulse mb-4 cursor-pointer duration-200 hover:scale-110 active:scale-95"
+        title="Go Back"
       >
-        Back
-      </button> */}
-       
-<button onClick={() => navigate(-1)} className="animate-pulse cursor-pointer duration-200 hover:scale-125 active:scale-100" title="Go Back">
-  <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 24 24" className="stroke-blue-400">
-    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" d="M11 6L5 12M5 12L11 18M5 12H19"></path>
-  </svg>
-</button>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40px"
+          height="40px"
+          viewBox="0 0 24 24"
+          className="stroke-blue-400"
+        >
+          <path
+            strokeLinejoin="round"
+            strokeLinecap="round"
+            strokeWidth="1.5"
+            d="M11 6L5 12M5 12L11 18M5 12H19"
+          />
+        </svg>
+      </button>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Product Image */}
         <img
-          className="w-full h-auto object-cover rounded-md shadow-md"
+          className="w-full cursor-pointer transition duration-300 hover:scale-105 h-auto object-cover rounded-md shadow-md"
           src={product.image}
           alt={product.name}
         />
+
+        {/* Product Details */}
         <div className="space-y-4 my-auto">
-          <h1 className="text-3xl font-bold text-gray-800">{product.name}</h1>
-          <p className="text-xl font-semibold text-gray-700"> Price: ${product.price}</p>
-          <p className='font-medium italic'>More About The Product:</p>
-          <p className="text-gray-600 italic"> {product.description}</p>
-          <p className='font-medium italic flex items-center space-x-1 '>Rating:  {Array.from({ length: 4 }, (_, index) => (
-    <Star key={index} className="bg-yellow-500 " />
-  ))}</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
+            {product.name}
+          </h1>
+          <p className="text-lg sm:text-xl font-semibold text-gray-700">
+            Price: ${product.price}
+          </p>
+          <p className="font-medium italic">More About The Product:</p>
+          <p className="text-gray-600 italic">{product.description}</p>
+          <p className="font-medium italic flex items-center space-x-2">
+            Rating:
+            {Array.from({ length: 4 }, (_, index) => (
+              <Star
+                key={index}
+                className="text-yellow-500 w-5 h-5 sm:w-6 sm:h-6"
+              />
+            ))}
+          </p>
         </div>
       </div>
     </div>

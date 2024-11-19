@@ -28,7 +28,7 @@ const CategoryFilter = ({ categories, selectedCategories, toggleCategory }) => {
       <button
         id="dropdownToggleButton"
         onClick={toggleDropdown}
-        className="text-white rounded-s-full bg-sky-500 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-white rounded-s-full bg-sky-500 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
       >
         Filter by Categories
         <svg
