@@ -23,12 +23,12 @@ const CategoryFilter = ({ categories, selectedCategories, toggleCategory }) => {
   }, []);
 
   return (
-    <div className="category-filter relative mt-20 mb-5  " ref={dropdownRef}>
+    <div className="category-filter relative mt-20 mb-5" ref={dropdownRef}>
       {/* Dropdown Toggle Button */}
       <button
         id="dropdownToggleButton"
         onClick={toggleDropdown}
-        className="text-white rounded-s-full bg-sky-500 hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-white rounded-s-full bg-blue-400 hover:bg-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-200 font-medium text-sm sm:text-base md:text-md px-4 py-2 sm:px-5 sm:py-2 inline-flex items-center"
       >
         Filter by Categories
         <svg
@@ -52,9 +52,9 @@ const CategoryFilter = ({ categories, selectedCategories, toggleCategory }) => {
       {dropdownVisible && (
         <div
           id="dropdownToggle"
-          className="absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-72 dark:bg-gray-500 dark:divide-gray-600 mt-2"
+          className="absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-60 sm:w-72 md:w-80 dark:bg-gray-500 dark:divide-gray-600 mt-2"
         >
-          <ul className="p-1 space-y-0 text-sm text-gray-700 dark:text-gray-200">
+          <ul className="p-1 space-y-0 text-sm sm:text-base text-gray-700 dark:text-gray-200">
             {categories.map((category, index) => (
               <li key={index}>
                 <div className="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">

@@ -28,7 +28,7 @@ const SortFilter = ({ sortOrder, setSortOrder }) => {
       <button
         id="sortDropdownToggleButton"
         onClick={toggleDropdown}
-        className="text-white rounded-e-full bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-white rounded-e-full   bg-teal-300 hover:bg-teal-500 focus:ring-4 focus:outline-none focus:ring-teal-200 font-medium text-sm sm:text-base md:text-md px-4 py-2 sm:px-5 sm:py-2 inline-flex items-center"
       >
         Sort by Price
         <svg
@@ -52,9 +52,9 @@ const SortFilter = ({ sortOrder, setSortOrder }) => {
       {dropdownVisible && (
         <div
           id="sortDropdown"
-          className="absolute  z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-48 dark:bg-gray-700 dark:divide-gray-600 mt-2"
+          className="absolute z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-40 sm:w-48 md:w-56 lg:w-64 dark:bg-gray-700 dark:divide-gray-600 mt-2"
         >
-          <ul className="p-1 space-y-0 text-sm text-gray-700 dark:text-gray-200">
+          <ul className="p-1 space-y-0 text-sm sm:text-base text-gray-700 dark:text-gray-200">
             <li>
               <button
                 onClick={() => {
