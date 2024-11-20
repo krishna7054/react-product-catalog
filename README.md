@@ -57,3 +57,40 @@ Make sure you have the following installed on your system:
 - Routing: React Router
 - Icons: Lucide-React
 - Data: JSON file for product details
+
+### Challenges Faced
+1. **State Management for Cart**:
+Managing the cart functionality required careful consideration to update the cart dynamically. We implemented a custom CartContext using React's Context API to handle cart state globally.
+
+**Solution**:
+- Used useContext for better state updates and reusability.
+- Encapsulated cart logic in a dedicated context provider.
+- Utilized React Context API for global state management.
+
+2. **Responsive Design Across Devices**:
+Ensuring a consistent and user-friendly experience on all screen sizes posed challenges.
+
+**Solution**:
+- Leveraged TailwindCSS's utility-first classes for responsive design.
+- Implemented conditional layouts for mobile, tablet, and desktop using flex and grid.
+
+3. **Dynamic Product Filtering and Sorting**:
+Filtering and sorting products in real-time while maintaining performance was tricky with a larger dataset.
+
+**Solution**:
+- Applied chaining of filter and sort methods directly on the product array.
+
+### Enhancements Implemented
+1. **Responsive Design**:
+- The search bar adapts to be above the buttons on smaller screens.
+
+2. **Real-time Search**:
+- Products are filtered dynamically as the user types.
+
+3. **Animation Effects**:
+- Added hover and click animations for better UX.
+
+4. **Clean Component Structure**:
+- Modular components for better scalability and readability.
+
+
