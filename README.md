@@ -93,4 +93,19 @@ Filtering and sorting products in real-time while maintaining performance was tr
 4. **Clean Component Structure**:
 - Modular components for better scalability and readability.
 
+### ScreenShot
+
+- **Laptop View**:
+  
+![Screenshot_20-11-2024_10722_meraken-product-catalog netlify app](https://github.com/user-attachments/assets/c93bc744-405f-4adb-869a-e7ffd382cff5)
+![Screenshot 2024-11-20 101512](https://github.com/user-attachments/assets/e973cad7-9a70-4113-9210-db7dbd718642)
+![Screenshot 2024-11-20 101429](https://github.com/user-attachments/assets/9a6662cb-45fd-4f45-b947-8562343e518d)
+![Screenshot 2024-11-20 101326](https://github.com/user-attachments/assets/8ecbb76d-38aa-43af-acd8-5dd756957785)
+![Screenshot 2024-11-20 101227](https://github.com/user-attachments/assets/3bc323da-98c5-4fd0-9cf9-6e348ca8783a)
+![Screenshot 2024-11-20 101040](https://github.com/user-attachments/assets/73881b15-2e74-4dfc-8695-76eea6d01c01)
+
+- **Mobile View**:
+  
+![WhatsApp Image 2024-11-20 at 10 11 47_b3e9ded0](https://github.com/user-attachments/assets/442087fe-ab93-41c4-be45-457a55bc11e6)
+![WhatsApp Image 2024-11-20 at 10 09 22_4d834b40](https://github.com/user-attachments/assets/59c3129f-2c07-48fb-a516-bc06851db349)
 
