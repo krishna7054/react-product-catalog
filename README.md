@@ -1,4 +1,4 @@
-# React-Product-Catalog
+# React Product Catalog
 
 A modern, responsive e-commerce application with filtering, sorting, and cart functionalities. This application is built with React, TailwindCSS, and a custom context API for managing state, providing a seamless user experience across devices.
 
@@ -15,10 +15,12 @@ A modern, responsive e-commerce application with filtering, sorting, and cart fu
 ---
 
 ## Features
+- **Product Listing**: Displays all products in a grid layout for better visualization.
 - **Search and Filter**: Search products and filter them by categories.
 - **Sorting**: Sort products by price (ascending/descending).
-- **Responsive Design**: Fully responsive layout for mobile, tablet, laptop, and desktop.
 - **Cart Management**: Add products to the cart with live item count updates.
+- **Product Details**: Displays a larger product image, price, description, and an option to "Add to Cart and "Buy Now".
+- **Responsive Design**: Fully responsive layout for mobile, tablet, laptop, and desktop.
 
 ---
 
@@ -96,16 +98,23 @@ Filtering and sorting products in real-time while maintaining performance was tr
 ### ScreenShot
 
 - **Laptop View**:
+<p>
+   <img src="https://github.com/user-attachments/assets/c93bc744-405f-4adb-869a-e7ffd382cff5" width=45% height = 300 >
+    <img src="https://github.com/user-attachments/assets/e973cad7-9a70-4113-9210-db7dbd718642" width=45% height = 300>
+
+   <img src="https://github.com/user-attachments/assets/9a6662cb-45fd-4f45-b947-8562343e518d" width=45% height = 300>
+    <img src="https://github.com/user-attachments/assets/8ecbb76d-38aa-43af-acd8-5dd756957785" width=45% height = 300>
+      <img src="https://github.com/user-attachments/assets/3bc323da-98c5-4fd0-9cf9-6e348ca8783a" width=45% height = 300>
+    <img src="https://github.com/user-attachments/assets/73881b15-2e74-4dfc-8695-76eea6d01c01" width=45% height = 300>
+ 
+</p>
   
-![Screenshot_20-11-2024_10722_meraken-product-catalog netlify app](https://github.com/user-attachments/assets/c93bc744-405f-4adb-869a-e7ffd382cff5)
-![Screenshot 2024-11-20 101512](https://github.com/user-attachments/assets/e973cad7-9a70-4113-9210-db7dbd718642)
-![Screenshot 2024-11-20 101429](https://github.com/user-attachments/assets/9a6662cb-45fd-4f45-b947-8562343e518d)
-![Screenshot 2024-11-20 101326](https://github.com/user-attachments/assets/8ecbb76d-38aa-43af-acd8-5dd756957785)
-![Screenshot 2024-11-20 101227](https://github.com/user-attachments/assets/3bc323da-98c5-4fd0-9cf9-6e348ca8783a)
-![Screenshot 2024-11-20 101040](https://github.com/user-attachments/assets/73881b15-2e74-4dfc-8695-76eea6d01c01)
 
 - **Mobile View**:
-  
-![WhatsApp Image 2024-11-20 at 10 11 47_b3e9ded0](https://github.com/user-attachments/assets/442087fe-ab93-41c4-be45-457a55bc11e6)
-![WhatsApp Image 2024-11-20 at 10 09 22_4d834b40](https://github.com/user-attachments/assets/59c3129f-2c07-48fb-a516-bc06851db349)
+ <p>
+   <img src="https://github.com/user-attachments/assets/59c3129f-2c07-48fb-a516-bc06851db349" width=30% height=600>
+  <img src="https://github.com/user-attachments/assets/442087fe-ab93-41c4-be45-457a55bc11e6" width=30% height=600>
+ 
+</p>
+
 
