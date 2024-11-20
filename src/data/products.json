@@ -25,11 +25,11 @@
     },
     {
       "id": 4,
-      "name": "Formal Shirt",
-      "category": "Cloths",
-      "price": 100.99,
-      "image": "/images/shirt.jpeg",
-      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
+      "name": "Football-Boot",
+      "category": "Sportswear",
+      "price": 200.19,
+      "image": "/images/football-boot.jpeg",
+      "description": "Fast by nature, the Nike Mercurial Vapor XII 360 Elite FG football boots provide a 360 degree fit for speed on firm natural ground surfaces.FAST BY NATURE. BORN MERCURIAL."
     },
     {
       "id": 5,
@@ -39,20 +39,20 @@
       "image": "/images/shirt.jpeg",
       "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
     },
+   
     {
       "id": 6,
-      "name": "Formal Shirt",
+      "name": "T-Shirt",
       "category": "Cloths",
-      "price": 100.99,
-      "image": "/images/shirt.jpeg",
-      "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
-    },
+      "price": 90.99,
+      "image": "/images/t-shirt.png",
+      "description": "T-shirt in lightweight cotton jersey with a V-neck and a straight-cut hem. Slim fit that hugs the contours of your body, creating a fitted silhouette."   },
     {
       "id": 7,
-      "name": "Formal Shirt",
+      "name": "T-Shirt",
       "category": "Cloths",
-      "price": 100.99,
-      "image": "/images/shirt.jpeg",
+      "price": 10.99,
+      "image": "/images/t-shirt.jpeg",
       "description": "Short-sleeved shirt in a textured knit with a resort collar, French front and a straight hem. Regular fit for comfortable wear and a classic silhouette."
     }
   ]

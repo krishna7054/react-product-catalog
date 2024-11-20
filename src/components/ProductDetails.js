@@ -2,10 +2,12 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import products from '../data/products.json';
 import { Star } from "lucide-react";
+import { useCart } from '../context/CartContext';
 
 const ProductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { addToCart } = useCart();
   const product = products.find((p) => p.id === parseInt(id));
 
   if (!product) {
@@ -69,8 +71,14 @@ const ProductDetails = () => {
             ))}
           </p>
 
-          <div className='flex '>
-            <button className='bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded-full animate-pulse'>Buy Now</button>
+          <div className='flex gap-3 '>
+            <button className='bg-pink-500 hover:bg-pink-700 text-white  text-xs sm:text-sm font-medium py-2 px-4 rounded-full animate-pulse '>Buy Now</button>
+            <button
+          onClick={() => addToCart(product)}
+          className="px-4 py-2 bg-slate-700 text-white text-xs sm:text-sm font-medium rounded-full hover:bg-orange-500 transition-all duration-200 "
+        >
+          Add to Cart
+        </button>
           </div>
 
         </div>
