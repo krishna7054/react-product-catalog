@@ -35,3 +35,25 @@ Make sure you have the following installed on your system:
    git clone https://github.com/krishna7054/react-product-catalog.git
    cd react-product-catalog
    ```
+2. **Install dependencies: Using npm**: 
+    ```bash
+    npm install
+    ```
+3. **Start the development server: Using npm**:    
+    ```bash
+    npm start
+    ```
+4. View the app: Open your browser and navigate to `http://localhost:3000`.    
+
+### Usage
+- Search for products using the search bar.
+- Filter products by category using the filter buttons.
+- Sort products by price using the sort dropdown.
+- Add products to the cart and view the item count.
+
+### Technologies Used
+- Frontend: React, TailwindCSS
+- State Management: Custom Context API for cart functionality
+- Routing: React Router
+- Icons: Lucide-React
+- Data: JSON file for product details
