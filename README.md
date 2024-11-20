@@ -112,8 +112,8 @@ Filtering and sorting products in real-time while maintaining performance was tr
 
 - **Mobile View**:
  <p>
-   <img src="https://github.com/user-attachments/assets/59c3129f-2c07-48fb-a516-bc06851db349" width=30% height=600>
-  <img src="https://github.com/user-attachments/assets/442087fe-ab93-41c4-be45-457a55bc11e6" width=30% height=600>
+   <img src="https://github.com/user-attachments/assets/59c3129f-2c07-48fb-a516-bc06851db349" width=30% height=500>
+  <img src="https://github.com/user-attachments/assets/442087fe-ab93-41c4-be45-457a55bc11e6" width=30% height=500>
  
 </p>
 
